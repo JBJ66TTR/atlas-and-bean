@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5efe6;
+    color: #2d2118;
+    line-height: 1.6;
+}
+
+header {
+    background: #2d2118;
+    color: white;
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 8%;
+    background: #c89b6d;
+}
+
+#home h1 {
+    font-size: 64px;
+    max-width: 700px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+#home p {
+    font-size: 20px;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+button {
+    width: fit-content;
+    padding: 14px 25px;
+    border: none;
+    background: #2d2118;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section {
+    padding: 80px 8%;
+}
+
+section h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#menu {
+    background: #f5efe6;
+}
+
+#menu div {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+#menu h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+#menu strong {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#about {
+    background: #e3d0bb;
+}
+
+#about p,
+#contact p {
+    max-width: 650px;
+    font-size: 18px;
+}
+
+#contact {
+    background: #f5efe6;
+}
+
+footer {
+    background: #2d2118;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media (max-width: 700px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    #home h1 {
+        font-size: 45px;
+    }
+}
